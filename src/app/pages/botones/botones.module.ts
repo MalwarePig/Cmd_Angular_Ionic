@@ -4,20 +4,19 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ActionSheetPageRoutingModule } from './action-sheet-routing.module';
+import { BotonesPageRoutingModule } from './botones-routing.module';
 
-import { ActionSheetPage } from './action-sheet.page';
+import { BotonesPage } from './botones.page';
 import { ComponentesModule } from '../../componentes/componentes.module';
-
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ActionSheetPageRoutingModule,
+    BotonesPageRoutingModule,
     ComponentesModule
   ],
-  declarations: [ActionSheetPage]
+  declarations: [BotonesPage]
 })
-export class ActionSheetPageModule {}
+export class BotonesPageModule {}

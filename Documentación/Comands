@@ -15,6 +15,8 @@ npm i natives //Reinstalar proyecto en otro entorno
 
    ionic g page pages/Alertas --spec=false
       ionic g page pages/action-sheet --spec=false
+       ionic g page pages/avatar --spec=false
+       ionic g page pages/botones --spec=false
  
 
 

@@ -4,9 +4,10 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ActionSheetPageRoutingModule } from './action-sheet-routing.module';
+import { AvatarPageRoutingModule } from './avatar-routing.module';
 
-import { ActionSheetPage } from './action-sheet.page';
+import { AvatarPage } from './avatar.page';
+
 import { ComponentesModule } from '../../componentes/componentes.module';
 
 
@@ -15,9 +16,8 @@ import { ComponentesModule } from '../../componentes/componentes.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    ActionSheetPageRoutingModule,
-    ComponentesModule
+    AvatarPageRoutingModule,ComponentesModule
   ],
-  declarations: [ActionSheetPage]
+  declarations: [AvatarPage]
 })
-export class ActionSheetPageModule {}
+export class AvatarPageModule {}
