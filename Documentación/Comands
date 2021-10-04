@@ -1,0 +1,23 @@
+ionic start Pokedex blank //Iniciar proyecto nuevo(Menu)
+ionic start //Iniciar proyecto nuevo(Menu)
+ionic serve //Inicia servidor 
+ionic g page pages/inicio --spec=false //Crea una pagina o componente sin archivo de pruebas
+
+ionic build --prod//crea todo el proyecto para meterlo a www como proyecto web
+
+npx cap add android//convierte el proyecto a java para usar con android studio
+npx cap open android //Abre android studio con el proyecto cargado
+
+//////////////////////////////////
+npm i natives //Reinstalar proyecto en otro entorno
+
+
+
+   ionic g page pages/Alertas --spec=false
+      ionic g page pages/action-sheet --spec=false
+ 
+
+
+ ionic g module componentes --dry-run//Modulo para agrupar componentes //Siempre se deben importar modulos en app.module, ademas importar y expórtar los componentes a utilizar
+
+  ionic g component  componentes/header --spec=false
